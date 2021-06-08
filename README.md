@@ -1,18 +1,9 @@
-# npm-package-template
+# @vidhill/fortawesome-11ty-shortcode-helper
 
-Repo intended to be used as a template for npm packages,  
-with opinionated build setup `babel`, `eslint`, `jest`, `husky` etc pre-configured
-
-Add description
+Helper utilities for an eleventy shortcode
 
 ```bash
-$ npm install package --save # replace with real npm package name
-```
-
-## Setup
-
-```javascript
-// add relevant setup here
+$ npm install @vidhill/fortawesome-11ty-shortcode-helper --save
 ```
 
 ## Usage
