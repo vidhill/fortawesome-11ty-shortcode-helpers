@@ -1,5 +1,5 @@
 {
-    "name": "npm-package-template",
+    "name": "@vidhill/fortawesome-11ty-shortcode-helper",
     "version": "1.0.0",
     "description": "Template repo for npm packages, eslint, jest, husky pre-configured",
     "main": "build/index.js",
@@ -23,15 +23,19 @@
     },
     "author": "David Hill",
     "bugs": {
-        "url": "https://github.com/vidhill/npm-package-template/issues"
+        "url": "https://github.com/vidhill/fortawesome-11ty-shortcode-helpers/issues"
     },
-    "homepage": "https://github.com/vidhill/npm-package-template#readme",
+    "homepage": "https://github.com/vidhill/fortawesome-11ty-shortcode-helpers#readme",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vidhill/npm-package-template.git"
+        "url": "git+https://github.com/vidhill/fortawesome-11ty-shortcode-helpers.git"
     },
-    "keywords": [],
+    "keywords": [
+        "11ty",
+        "shortcodes",
+        "svg"
+    ],
     "devDependencies": {
         "@babel/cli": "^7.14.3",
         "@babel/core": "^7.14.3",
