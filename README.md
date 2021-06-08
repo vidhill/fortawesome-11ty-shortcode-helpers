@@ -12,13 +12,6 @@ $ npm install @vidhill/fortawesome-11ty-shortcode-helper --save
 // add example usage here
 ```
 
-### Outputs
-
-```html
-<!-- add example output here -->
-<div></div>
-```
-
 ## Development
 
 -   Build: `npm run build`
