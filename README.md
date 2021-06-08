@@ -10,12 +10,6 @@ Is a separate package as I intend on creating further wrappers for each of the f
 $ npm install @vidhill/fortawesome-11ty-shortcode-helper --save
 ```
 
-## Usage
-
-```javascript
-// add example usage here
-```
-
 ## Development
 
 -   Build: `npm run build`
