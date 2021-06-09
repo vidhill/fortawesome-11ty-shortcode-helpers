@@ -1,5 +1,7 @@
 # @vidhill/fortawesome-11ty-shortcode-helper
 
+[![CircleCI](https://circleci.com/gh/vidhill/fortawesome-11ty-shortcode-helpers/tree/main.svg?style=shield)](https://circleci.com/gh/vidhill/fortawesome-11ty-shortcode-helpers/tree/main)
+
 Helper utilities for creating an eleventy shortcode
 
 Specifically created to be used by [@vidhill/fortawesome-brands-11ty-shortcode](https://github.com/vidhill/fortawesome-brands-svg-11ty-shortcode)
