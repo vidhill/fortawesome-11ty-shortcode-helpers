@@ -25,6 +25,10 @@ jobs:
       - run:
           name: Run tests
           command: npm test
+      # persist code coverage report
+      - store_artifacts:
+          path: coverage
+
 
 workflows:
   # Below is the definition of your workflow.
