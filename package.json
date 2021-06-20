@@ -1,6 +1,6 @@
 {
     "name": "@vidhill/fortawesome-11ty-shortcode-helper",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Helper utilities for creating a fortawesome eleventy shortcode",
     "main": "build/index.js",
     "scripts": {
