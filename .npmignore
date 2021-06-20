@@ -5,3 +5,4 @@ src
 babel.config.json
 jest-config/
 jest.config.js
+.circleci/
