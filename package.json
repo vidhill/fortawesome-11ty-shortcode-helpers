@@ -60,6 +60,6 @@
         "@fortawesome/fontawesome-svg-core": "^6.5.2"
     },
     "engines": {
-        "node": ">=18.20.3"
+        "node": ">=18.16.1"
     }
 }
