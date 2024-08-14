@@ -35,7 +35,7 @@ describe("test 'makeFortawesomeShortcode()'", () => {
         };
         const fortawesomeShortcode = makeFortawesomeShortcode(
             dummyIconSet,
-            iconSetKey
+            iconSetKey,
         );
         expect(fortawesomeShortcode).not.toBeUndefined();
         expect(fortawesomeShortcode).toBeType('function');
@@ -61,7 +61,7 @@ describe("test 'makeFortawesomeShortcode()'", () => {
 
         const fortawesomeShortcode = makeFortawesomeShortcode(
             dummyIconSet,
-            prefix
+            prefix,
         );
 
         const fortawesomeShortcodeToElement = (...args) => {
@@ -85,7 +85,7 @@ describe("test 'makeFortawesomeShortcode()'", () => {
         it('should add the expected class name', () => {
             const element = fortawesomeShortcodeToElement(
                 'github',
-                'social-icon'
+                'social-icon',
             );
 
             const classNames = element.getAttribute('class').split(' ');
@@ -95,7 +95,7 @@ describe("test 'makeFortawesomeShortcode()'", () => {
         it('should add the expected class name, passing multiple classes', () => {
             const element = fortawesomeShortcodeToElement(
                 'github',
-                'social-icon,icon'
+                'social-icon,icon',
             );
             const classNames = element.getAttribute('class').split(' ');
 
@@ -107,7 +107,7 @@ describe("test 'makeFortawesomeShortcode()'", () => {
             const element = fortawesomeShortcodeToElement('github');
 
             expect(element.getAttribute('viewBox')).toBe(
-                `0 0 ${viewBoxWidth} ${viewBoxHeight}`
+                `0 0 ${viewBoxWidth} ${viewBoxHeight}`,
             );
         });
     });
