@@ -40,7 +40,7 @@ function makeFortawesomeShortcode(iconSet, iconSetPrefix) {
                 prefix: iconSetPrefix,
                 iconName,
             },
-            options
+            options,
         );
 
         if (!iconResult) {
