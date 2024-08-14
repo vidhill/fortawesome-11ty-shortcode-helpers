@@ -12,7 +12,7 @@ jobs:
   build-and-test:  
     # A list of available CircleCI Docker Convenience Images are available here: https://circleci.com/developer/images/image/cimg/node
     docker:
-      - image: cimg/node:18.16
+      - image: cimg/node:18.18
     # Then run your tests!
     # CircleCI will report the results back to your VCS provider.
     steps:
