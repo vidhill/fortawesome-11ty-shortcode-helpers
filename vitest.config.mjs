@@ -8,6 +8,13 @@ export default defineConfig({
         // The test environment that will be used for testing
         environment: 'jsdom',
 
+        reporters: ['json', 'junit', 'default'],
+
+        outputFile: {
+            junit: '../test-results/jest/results.xml',
+            json: '../test-results/jest/results.json',
+        },
+
         // A list of paths to modules that run some code to configure or set up the testing framework before each test
         setupFiles: ['../test-config/index.js'],
 
