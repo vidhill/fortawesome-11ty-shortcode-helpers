@@ -1,3 +1,5 @@
+import { describe, it, expect } from 'vitest';
+
 import { makeFortawesomeShortcode } from './index';
 
 function createElementFromHTML(htmlString) {
