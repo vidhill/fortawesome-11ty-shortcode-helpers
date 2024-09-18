@@ -4,8 +4,8 @@
     "description": "Helper utilities for creating a fortawesome eleventy shortcode",
     "main": "build/index.js",
     "scripts": {
-        "test": "jest",
-        "test:watch": "jest --watch",
+        "test": "vitest run",
+        "test:watch": "vitest",
         "prebuild": "rimraf build/",
         "build": "babel src -d build",
         "dev": "watch 'npm run build' src",
