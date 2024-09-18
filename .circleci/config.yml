@@ -46,7 +46,8 @@ jobs:
       # persist code coverage report
       - store_artifacts:
           path: coverage
-
+      - store_test_results:
+          path: test-results
 
 workflows:
   # Below is the definition of your workflow.
