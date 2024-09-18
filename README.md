@@ -16,7 +16,7 @@ $ npm install @vidhill/fortawesome-11ty-shortcode-helper --save
 
 ## Development
 
--   Build: `npm run build`
--   Watch build: `npm run dev`
--   Run tests: `npm run test`
--   Watch tests: `npm run test:watch`
+-   Build: `pnpm run build`
+-   Watch build: `pnpm run dev`
+-   Run tests: `pnpm run test`
+-   Watch tests: `pnpm run test:watch`
