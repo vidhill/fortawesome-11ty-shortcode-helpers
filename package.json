@@ -2,7 +2,16 @@
     "name": "@vidhill/fortawesome-11ty-shortcode-helper",
     "version": "1.2.0",
     "description": "Helper utilities for creating a fortawesome eleventy shortcode",
-    "main": "build/index.js",
+    "exports": {
+        ".": {
+            "import": {
+                "default": "./build/index.js"
+            },
+            "require": {
+                "default": "./build/index.cjs"
+            }
+        }
+    },
     "type": "module",
     "scripts": {
         "test": "vitest run",
