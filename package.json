@@ -38,11 +38,8 @@
         "svg"
     ],
     "devDependencies": {
-        "@babel/cli": "^7.24.8",
-        "@babel/core": "^7.25.2",
         "@types/node": "^22.5.5",
         "@vitest/coverage-v8": "^2.1.1",
-        "babel-preset-latest-node": "^5.5.1",
         "eslint": "^8.57.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-config-vidhill": "^4.0.0",
