@@ -28,7 +28,6 @@
         "fix:md": "pnpm run lint-md --write",
         "lint:md": "pnpm run lint-md --check",
         "pre-push": "npm-run-all lint test",
-        "prepublish": "npm run pre-push; npm run build",
         "release": "bumpp",
         "prepare": "husky install"
     },
