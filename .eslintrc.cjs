@@ -17,5 +17,11 @@ module.exports = {
                 browser: true,
             },
         },
+        {
+            files: ['test-config/**/*', 'rollup.config.js'],
+            rules: {
+                'node/no-unpublished-import': 'off',
+            },
+        },
     ],
 };
