@@ -1,6 +1,6 @@
 {
     "name": "@vidhill/fortawesome-11ty-shortcode-helper",
-    "version": "1.3.0-beta.2",
+    "version": "1.3.0",
     "description": "Helper utilities for creating a fortawesome eleventy shortcode",
     "exports": {
         ".": {
@@ -28,6 +28,7 @@
         "fix:md": "pnpm run lint-md --write",
         "lint:md": "pnpm run lint-md --check",
         "pre-push": "npm-run-all lint test",
+        "prepublish": "npm run pre-push; npm run build",
         "release": "bumpp",
         "prepare": "husky install"
     },
