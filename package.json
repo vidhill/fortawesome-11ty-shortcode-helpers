@@ -12,6 +12,7 @@
             }
         }
     },
+    "main": "./build/index.cjs",
     "type": "module",
     "scripts": {
         "test": "vitest run",
