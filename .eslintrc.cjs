@@ -3,7 +3,7 @@ module.exports = {
         es2021: true,
         node: true,
     },
-    extends: ['vidhill'],
+    extends: ['vidhill/node'],
     parserOptions: {
         ecmaVersion: 12,
         sourceType: 'module',
