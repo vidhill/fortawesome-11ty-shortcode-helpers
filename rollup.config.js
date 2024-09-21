@@ -1,8 +1,8 @@
 import { createRequire } from 'node:module';
 
-const require = createRequire(import.meta.url);
+const nodeRequire = createRequire(import.meta.url);
 
-const pkg = require('./package.json');
+const pkg = nodeRequire('./package.json');
 
 const rootEntry = pkg.exports['.'];
 
