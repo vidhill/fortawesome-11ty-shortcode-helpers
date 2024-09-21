@@ -1,4 +1,6 @@
 src
+.github
+.vscode
 .eslintrc.js
 .husky/
 .prettierrc.json
@@ -6,3 +8,9 @@ babel.config.json
 jest-config/
 jest.config.js
 .circleci/
+coverage
+test-config
+.eslintrc
+rollup.config.js
+vitest.config.mjs
+test-results
